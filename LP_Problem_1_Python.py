@@ -39,9 +39,10 @@ with open('LP_Solution_1.txt', 'w') as file:
     file.write(f"status = {LpStatus[status]}\n")
 
     # Print and write the results
+    print("Number of weekly servings of each food item:")
     for variable in diet_prob.variables():
-        file.write(f"{variable.name} = {variable.varValue}\n")
-    file.write(f"Objective = ${round(value(diet_prob.objective), 2)}\n")
+        file.write(f"{variable.name} = {round(variable.varValue, 2)}\n")
+    file.write(f"Minimum cost = ${round(value(diet_prob.objective), 2)}\n")
 
 # Print a message indicating that the solution has been saved to the file
 print("Solution saved to solution.txt file.")

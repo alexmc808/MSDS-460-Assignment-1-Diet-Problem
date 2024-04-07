@@ -24,7 +24,14 @@ The linear programming problem is formulated as follows:
 - **Objective Function:**
   - Minimize Z = 0.79 * oatmilk + 0.40 * bread + 1.46 * yogurt + 1.69 * tuna + 0.33 * cheese
 - **Constraints:**
-  - Nutritional constraints to meet recommended allowances.
+  - 100 * oatmilk + 230 * bread + 65 * yogurt + 270 * tuna + 230 * cheese <= 35000
+  - 120 * oatmilk + 110 * bread + 90 * yogurt + 110 * tuna + 60 * cheese >= 14000
+  - 3 * oatmilk + 3 * bread + 18 * yogurt + 24 * tuna + 4 * cheese >= 350
+  - 3.6 * oatmilk + 0.3 * tuna >= 140
+  - 350 * oatmilk + 6 * bread + 200 * yogurt + 330 * cheese >= 9100
+  - 0.3 * oatmilk + 1.4 * bread + 1.08 * tuna >= 126
+  - 390 * oatmilk + 30 * bread + 260 * yogurt + 188 * tuna + 60 * cheese >= 32900
+  - oatmilk, bread, yogurt, tuna, cheese >= 0
 - **Optimal Solution:**
   - Minimum cost = $91.45
   - Oatmilk: 78.73 servings

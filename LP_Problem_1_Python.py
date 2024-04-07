@@ -1,3 +1,10 @@
+# Linear Programming (LP) Problem: Minimize the cost of a weekly diet while meeting nutritional requirements.
+# The objective is to find the optimal number of servings for five food items: oatmilk, bread, yogurt, tuna, and cheese.
+# The cost per serving for each food item is determined and used in the objective function.
+# Constraints are set based on recommended dietary allowances for seven nutritional components: sodium, energy, protein, vitamin D, 
+# calcium, iron, and potassium.
+# The solution is saved to LP_Solution_1.txt, containing the status, number of servings for each food item, and the minimum cost.
+
 # Import libraries
 from pulp import LpVariable, LpProblem, LpMaximize, LpStatus, value, LpMinimize
 

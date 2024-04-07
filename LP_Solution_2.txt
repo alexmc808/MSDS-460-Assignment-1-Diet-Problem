@@ -1,0 +1,9 @@
+Problem
+status = Optimal
+Number of weekly servings of each food item:
+bread = 72.63
+cheese = 1.0
+oatmilk = 77.47
+tuna = 1.0
+yogurt = 1.0
+Minimum cost = $93.73

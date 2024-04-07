@@ -1,7 +1,7 @@
 # MSDS 460 Assignment 1: Linear Programming - The Diet Problem Revisited
 
 ## Introduction
-This repository contains Python code files, solutions text files, food nutrition label images, a ChatGPT conversation text file, and a PDF report for MSDS 460 Assignment #1, which focusing on applying linear programming to the diet problem. The diet problem involves optimizing food selection to meet nutritional requirements while minimizing cost, making it a classic problem in operations research.
+This repository contains Python code files, solution text files, food nutrition label images, a ChatGPT conversation text file, and a PDF report for MSDS 460 Assignment #1, which focuses on applying linear programming to the diet problem. The diet problem involves optimizing food selection to meet nutritional requirements while minimizing cost, making it a classic problem in operations research.
 
 ## Problem Description
 The problem revolves around selecting packaged food items from Ralph’s to create a weekly diet plan. The objective is to minimize total expenditure while ensuring nutritional requirements are met. Five food items are considered: Oatly Original Oatmilk, San Louis Sourdough Bread, Fage Total Plain 0% Milkfat Nonfat Greek Yogurt Tub, Chicken of the Sea Chunk Light Tuna in Water, and Kraft Singles American Sliced Cheese. The cost per serving for each item is as follows:

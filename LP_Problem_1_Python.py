@@ -39,7 +39,7 @@ with open('LP_Solution_1.txt', 'w') as file:
     file.write(f"status = {LpStatus[status]}\n")
 
     # Print and write the results
-    print("Number of weekly servings of each food item:")
+    file.write("Number of weekly servings of each food item:")
     for variable in diet_prob.variables():
         file.write(f"{variable.name} = {round(variable.varValue, 2)}\n")
     file.write(f"Minimum cost = ${round(value(diet_prob.objective), 2)}\n")

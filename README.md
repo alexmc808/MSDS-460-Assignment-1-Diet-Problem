@@ -13,7 +13,6 @@ The problem revolves around selecting packaged food items from Ralph’s to crea
 
 ## Linear Programming Problem
 The code and solution for the linear programming problem can be found in the repository labeled as "Problem_1". The linear programming problem is formulated as follows:
-The linear programming problem is formulated as follows:
 
 - **Decision Variables:**
   - oatmilk = number of servings of Oatly Original Oatmilk
@@ -44,4 +43,4 @@ The linear programming problem is formulated as follows:
 In response to the lack of variety in the initial solution, an additional constraint is introduced to require at least one serving of each food item per week. This adjustment aims to enhance the diversity of food selection while still minimizing cost and adhering to nutritional requirements. The code and solution for this revised problem can be found in the repository labeled as "Problem_2".
 
 ## Large Language Model Diet Problem Creation and Solution
-In addition to manually modeling the problem and finding the solution, the application of ChatGPT 3.5, a large language model, to model and solve the diet problem was explored. The full conversation with ChatGPT can be found in the repository labeled as "ChatGPT_Conversation.txt".
+In addition to manually modeling the problem and finding the solution, the application of ChatGPT 3.5, a large language model, to model and solve the diet problem is explored. The full conversation with ChatGPT can be found in the repository labeled as "ChatGPT_Conversation.txt".

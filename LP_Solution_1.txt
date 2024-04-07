@@ -1,6 +1,6 @@
 Problem
 status = Optimal
-bread = 73.13
+Number of weekly servings of each food item:bread = 73.13
 cheese = 0.0
 oatmilk = 78.73
 tuna = 0.0
